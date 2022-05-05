@@ -55,7 +55,7 @@
         UISearchTextField *searchField = obj.searchTextField;
         searchField.keyboardAppearance = UIKeyboardAppearanceDark;
 #elif defined(__IPHONE_7_0)
-        UITextField *searchField = [obj valueForKey:@"_searchField"];
+        UITextField *searchField = [obj valueForKey:@"searchField"];
         searchField.keyboardAppearance = UIKeyboardAppearanceDark;
 #else
         obj.keyboardAppearance = UIKeyboardAppearanceAlert;
@@ -65,7 +65,7 @@
         UISearchTextField *searchField = obj.searchTextField;
         searchField.keyboardAppearance = UIKeyboardAppearanceDefault;
 #elif defined(__IPHONE_7_0)
-        UITextField *searchField = [obj valueForKey:@"_searchField"];
+        UITextField *searchField = [obj valueForKey:@"searchField"];
         searchField.keyboardAppearance = UIKeyboardAppearanceDefault;
 #else
         obj.keyboardAppearance = UIKeyboardAppearanceDefault;
@@ -82,7 +82,7 @@
         UISearchTextField *searchField = self.searchTextField;
         searchField.keyboardAppearance = UIKeyboardAppearanceDark;
 #elif defined(__IPHONE_7_0)
-        UITextField *searchField = [self valueForKey:@"_searchField"];
+        UITextField *searchField = [self valueForKey:@"searchField"];
         searchField.keyboardAppearance = UIKeyboardAppearanceDark;
 #else
         self.keyboardAppearance = UIKeyboardAppearanceAlert;
@@ -92,7 +92,7 @@
         UISearchTextField *searchField = self.searchTextField;
         searchField.keyboardAppearance = UIKeyboardAppearanceDefault;
 #elif defined(__IPHONE_7_0)
-        UITextField *searchField = [self valueForKey:@"_searchField"];
+        UITextField *searchField = [self valueForKey:@"searchField"];
         searchField.keyboardAppearance = UIKeyboardAppearanceDefault;
 #else
         self.keyboardAppearance = UIKeyboardAppearanceDefault;
